@@ -1,37 +1,37 @@
 # TugasRPL_restAPI_Kel6
 Anggota:
-Alvin Arrazy (21120118130055)
-Hafizh Nafian (21120118130054)
-Aldy Sufrianto (21120118120021)
-Syafiqul Mahdi (21120118110002)
-Benecditus Steven Hanantyo (21120118130057)
-
-API List:
-# Read
-http://localhost/TugasRPLBK_restAPI_Kel6/mahasiswa/read.php
-
-# Create
-http://localhost/TugasRPLBK_restAPI_Kel6/mahasiswa/create.php
-dengan post parameter
-{
-    "nama": "NAMA_BARU",
-    "angkatan": "ANGKATAN_BARU"
+Alvin Arrazy (21120118130055) <br />
+Hafizh Nafian (21120118130054) <br />
+Aldy Sufrianto (21120118120021) <br />
+Syafiqul Mahdi (21120118110002) <br />
+Benecditus Steven Hanantyo (21120118130057) <br />
+<br />
+# API List: <br />
+READ <br />
+http://localhost/TugasRPLBK_restAPI_Kel6/mahasiswa/read.php <br />
+<br />
+CREATE <br />
+http://localhost/TugasRPLBK_restAPI_Kel6/mahasiswa/create.php <br />
+dengan post parameter <br />
+{<br />
+    "nama": "NAMA_BARU",<br />
+    "angkatan": "ANGKATAN_BARU"<br />
 }
-
-# Delete
-http://localhost/TugasRPLBK_restAPI_Kel6/mahasiswa/delete.php
+<br />
+DELETE<br />
+http://localhost/TugasRPLBK_restAPI_Kel6/mahasiswa/delete.php<br />
 dengan post parameter 
-{
-    "nim": "NIM_MAHASISWA"
-}
-
-# Update
-http://localhost/TugasRPLBK_restAPI_Kel6/mahasiswa/update.php
-dengan post parameter
-{
-    "nama": "NAMA_BARU_UPDATE",
-    "angkatan": "ANGKATAN_BARU_UPDATE"
-}
-
-# Search
-http://localhost/TugasRPLBK_restAPI_Kel6/mahasiswa/search.php?s=DATA_YANG_DICARI
+{<br />
+    "nim": "NIM_MAHASISWA"<br />
+}<br />
+<br />
+UPDATE<br />
+http://localhost/TugasRPLBK_restAPI_Kel6/mahasiswa/update.php<br />
+dengan post parameter<br />
+{<br />
+    "nama": "NAMA_BARU_UPDATE",<br />
+    "angkatan": "ANGKATAN_BARU_UPDATE"<br />
+}<br />
+<br />
+SEARCH<br />
+http://localhost/TugasRPLBK_restAPI_Kel6/mahasiswa/search.php?s=DATA_YANG_DICARI<br />
