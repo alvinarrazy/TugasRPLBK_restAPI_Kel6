@@ -3,7 +3,7 @@ class Database{
   
     // specify your own database credentials
     private $host = "localhost";
-    private $db_name = "kel6_RPLBK";
+    private $db_name = "kel6_rplbk";
     private $username = "root";
     private $password = "";
     public $conn;
