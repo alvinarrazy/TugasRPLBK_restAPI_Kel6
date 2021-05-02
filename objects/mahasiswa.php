@@ -100,10 +100,12 @@ class Mahasiswa{
         // sanitize
         $this->nama=htmlspecialchars(strip_tags($this->nama));
         $this->angkatan=htmlspecialchars(strip_tags($this->angkatan));
+        $this->nim=htmlspecialchars(strip_tags($this->nim));
     
         // bind new values
         $stmt->bindParam(':nama', $this->nama);
         $stmt->bindParam(':angkatan', $this->angkatan);
+        $stmt->bindParam(':nim', $this->nim);
 
     
         // execute the query
